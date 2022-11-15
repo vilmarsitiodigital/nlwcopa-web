@@ -60,6 +60,8 @@ Technologies that I used to develop this api
 - [NextJs](https://nextjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
 
+## 💻 Getting started
+
 ### Requirements
 
 - [Started Server](https://github.com/vilmarsitiodigital/nlwcopa-api)
