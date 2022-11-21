@@ -5,6 +5,7 @@ import usersAvatarExampleImg from '../assets/users-avatar-example.png';
 import iconCheckImg from '../assets/icon-check.svg';
 import { api } from "../lib/axios";
 import { FormEvent, useState } from "react";
+import Head from "next/head";
 
 interface HomeProps {
   poolCount: number;
@@ -37,7 +38,12 @@ export default function Home(props: HomeProps) {
   }
 
   return (
+
     <div className="py-4 max-w-[90%] xl:max-w-[1124px] xl:h-screen mx-auto grid xl:grid-cols-2 xl:gap-28 xl:items-center">
+      <Head>
+        <title>Nlw Copa - Crie seu próprio bolão</title>
+        <meta name="description" content="Crie seu próprio bolão da copa e compartilhe entre amigos" />
+      </Head>
       <main className="mx-auto h-screen items-center grid md:h-auto md:py-4">
         <Image src={logoImg} alt="NLW Copa" />
 
