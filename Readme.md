@@ -46,7 +46,6 @@ Players can choose the best guess between games.
 
 Providers can see all their pools, view the games, participants and predictions.
 
-To see the **web preview**, click here: [NlwCopa Web Preview](https://nlwcopa-web.vercel.app/)<br />
 To see the **mobile client**, click here: [NlwCopa Mobile](https://github.com/vilmarsitiodigital/nlwcopa-mobile)<br />
 To see the **api client**, click here: [NlwCopa Api](https://github.com/vilmarsitiodigital/nlwcopa-api)
 
